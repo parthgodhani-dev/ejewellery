@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>EQ_Project</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+            integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+</head>
+<body onload="myFunction()">
+
+    <div id="loader"></div>
+
+    <header id="header">
+        <div class="head-top">
+            <div class="container">
+                <div class="text-line">
+                    <h5>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet consectetur <span>Adipisci velit</span></h5>
+                </div>
+                <span id='close' onclick='this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode); return false;'><img src="images/close.png" alt="close"></span>
+            </div>
+        </div>
+        <div class="head-bot">
+            <div class="container">
+                <div class="head-bot-inner">
+                    <div class="head-nav">
+                        <nav class="mainnav">
+                            <a class="menu-icon" href="#">
+                                <i class="fas fa-bars"></i></a>
+                            <ul id="nav">
+                                <li><a href="#">SHOP</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">visit</a></li>
+                                <li><a href="#">journal</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    
+                    <h1 class="main-logo">
+                        <a href="#"><img src="images/logo.png" alt="logo"></a>
+                    </h1>
+                    
+                    <div class="head-right">
+                        <div class="user_log_in">                             
+                            <div class="opt-user">
+                                <select name="user" class="opt-curn">
+                                    <option>Nishith</option>
+                                    <option>logout</option>                                    
+                                </select>
+                            </div>                            
+                        </div>
+                        
+                        <div class="cart">
+                            <a class="cart_box" href="#">cart</a>
+                        </div>
+
+                        <div class="searchbar">
+                            <a class="search_btn" href="#">search</a>
+                            <form action="form" class="togglesearch">
+                                <input type="text" placeholder="Search Products" />
+                                <input type="button" value="Search" />
+                            </form>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero_banner">
+        <div class="banner_slider owl-carousel owl-theme">
+            <div class="banner banner_a">
+                <img src="images/banner_img.png" alt="banner_img">
+                <div class="banner_text">                    
+                    <h2>Lorem Ipsum Dolor Sit Amet Adipiscing Elit</h2>                    
+                    <div class="button b_btn">shop now</div>                    
+                </div>                
+            </div>
+            <div class="banner banner_a">
+                <img src="images/banner_img.png" alt="banner_img">
+                <div class="banner_text">                    
+                    <h2>Lorem Ipsum Dolor Sit Amet Adipiscing Elit</h2>                    
+                    <div class="button b_btn">shop now</div>                    
+                </div>
+            </div>
+            <div class="banner banner_a">
+                <img src="images/banner_img.png" alt="banner_img">
+                <div class="banner_text">
+                    <h2>Lorem Ipsum Dolor Sit Amet Adipiscing Elit</h2>
+                    <div class="button b_btn">shop now</div>
+                </div>
+            </div>
+        </div>
+        <div class="down"><img src="images/arrow_down.png" alt=""></div>
+    </section>
+
+    <section class="shop_sction">
+        <div class="head_title">
+            <h2>Shop Jewellery</h2>
+        </div>        
+        <div class="shop_inner">
+            <div class="shop_slider owl-carousel owl-theme">
+                <div class="item">
+                    <img src="images/shop/earr_a.png" alt="earr_a">
+                    <h3>Earrings</h3>
+                </div>
+                <div class="item">
+                    <img src="images/shop/earr_b.png" alt="earr_b">
+                    <h3>Earrings</h3>
+                </div>
+                <div class="item">
+                    <img src="images/shop/earr_c.png" alt="earr_c">
+                    <h3>Earrings</h3>
+                </div>
+                <div class="item">
+                    <img src="images/shop/earr_d.png" alt="earr_d">
+                    <h3>Earrings</h3>
+                </div>
+                <div class="item">
+                    <img src="images/shop/earr_a.png" alt="earr_a">
+                    <h3>Earrings</h3>
+                </div>
+                <div class="item">
+                    <img src="images/shop/earr_b.png" alt="earr_b">
+                    <h3>Earrings</h3>
+                </div>
+                <div class="item">
+                    <img src="images/shop/earr_c.png" alt="earr_c">
+                    <h3>Earrings</h3>
+                </div>
+                <div class="item">
+                    <img src="images/shop/earr_d.png" alt="earr_d">
+                    <h3>Earrings</h3>
+                </div>
+            </div>            
+        </div>
+    </section>
+
+    <section class="high_jew_section">
+        <div class="container">
+            <div class="high_inner">
+                <div class="box_content">
+                    <h2>High Jewellery</h2>
+                    <h3>Lorem ipsum SIT</h3>
+                    <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <h3>Lorem ipsum dolor SIT AMET</h3>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute
+                        irure dolor in reprehenderit.</p>
+                    <div class="button high_btn">read more</div>
+                </div>
+                <div class="box_image">
+                    <img src="images/high-jewellery.png" alt="High Jewellery">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="promotion">
+        <div class="container">
+            <div class="promo_inner">
+                <div class="promo">
+                    <div class="promo_icon">
+                        <img src="images/icon/International-Certified.png" alt="International Certified Jewellery">
+                    </div>
+                    <div class="promo_name">
+                        <h4>International Certified Jewellery</h4>
+                    </div>
+                </div>
+                <div class="promo">
+                    <div class="promo_icon">
+                        <img src="images/icon/Award-winning.png" alt="Award-winning Fine Jewellery Brand">
+                    </div>
+                    <div class="promo_name">
+                        <h4>Award-winning Fine Jewellery Brand</h4>
+                    </div>
+                </div>
+                <div class="promo">
+                    <div class="promo_icon">
+                        <img src="images/icon/Complimentary-Lifetime.png" alt="Complimentary Lifetime Maintenance">
+                    </div>
+                    <div class="promo_name">
+                        <h4>Complimentary Lifetime Maintenance</h4>
+                    </div>
+                </div>
+                <div class="promo">
+                    <div class="promo_icon">
+                        <img src="images/icon/Free-International.png" alt="Free International Shipping">
+                    </div>
+                    <div class="promo_name">
+                        <h4>Free International Shipping</h4>
+                    </div>
+                </div>
+                <div class="promo">
+                    <div class="promo_icon">
+                        <img src="images/icon/Bespoke-Jewellery.png" alt="Bespoke Jewellery Concierge">
+                    </div>
+                    <div class="promo_name">
+                        <h4>Bespoke Jewellery Concierge</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="best_sellers">
+        <div class="head_title">
+            <h2>Best Sellers</h2>
+        </div>
+        <div class="container">
+            <div class="best_inner">
+                <div class="best_item">
+                    <div class="best_img">
+                        <img src="images/product/a.png" alt="">
+                    </div>
+                    <div class="best_con">
+                        <div class="name">Spiral Radiance Bangle</div>
+                        <div class="price">
+                            <span class="old">$3000</span>
+                            <span>$2590</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="best_item">
+                    <div class="best_img">
+                        <img src="images/product/b.png" alt="">
+                    </div>
+                    <div class="best_con">
+                        <div class="name">Spiral Radiance Bangle</div>
+                        <div class="price">
+                            <span class="old">$3000</span>
+                            <span>$2590</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="best_item">
+                    <div class="best_img">
+                        <img src="images/product/c.png" alt="">
+                    </div>
+                    <div class="best_con">
+                        <div class="name">Spiral Radiance Bangle</div>
+                        <div class="price">
+                            <span class="old">$3000</span>
+                            <span>$2590</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="best_item">
+                    <div class="best_img">
+                        <img src="images/product/d.png" alt="">
+                    </div>
+                    <div class="best_con">
+                        <div class="name">Spiral Radiance Bangle</div>
+                        <div class="price">
+                            <span class="old">$3000</span>
+                            <span>$2590</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="best_item">
+                    <div class="best_img">
+                        <img src="images/product/e.png" alt="">
+                    </div>
+                    <div class="best_con">
+                        <div class="name">Spiral Radiance Bangle</div>
+                        <div class="price">
+                            <span class="old">$3000</span>
+                            <span>$2590</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="view_prodects">
+                <div class="button best_btn">View More</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="find_boutique_section">
+        <div class="container">
+            <div class="high_inner">
+                <div class="box_content">
+                    <h2>Find A Boutique</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                        et dolore magna
+                        aliqua. Ut enim ad minim veniam, quistrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat</p>
+                    <div class="button high_btn">Locate</div>
+                </div>
+                <div class="box_image">
+                    <img src="images/find_boutique.png" alt="High Jewellery">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="designer_banner">
+        <div class="container">
+            <div class="desibann_slider owl-carousel owl-theme">
+                <div class="banner">
+                    <img src="images/designer_bann.png" alt="banner_img">
+                    <div class="banner_text">
+                        <h2>Meet in Person/Chat/Video Chat with the Designer</h2>
+                        <div class="button b_btn">Let’s Have a Call</div>
+                    </div>
+                </div>
+                <div class="banner">
+                    <img src="images/designer_bann.png" alt="banner_img">
+                    <div class="banner_text">
+                        <h2>Meet in Person/Chat/Video Chat with the Designer</h2>
+                        <div class="button b_btn">Let’s Have a Call</div>
+                    </div>
+                </div>
+                <div class="banner">
+                    <img src="images/designer_bann.png" alt="banner_img">
+                    <div class="banner_text">
+                        <h2>Meet in Person/Chat/Video Chat with the Designer</h2>
+                        <div class="button b_btn">Let’s Have a Call</div>
+                    </div>
+                </div>
+                <div class="banner">
+                    <img src="images/designer_bann.png" alt="banner_img">
+                    <div class="banner_text">
+                        <h2>Meet in Person/Chat/Video Chat with the Designer</h2>
+                        <div class="button b_btn">Let’s Have a Call</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="insta_feed">
+        <div class="head_title">
+            <h2>Shop Our Insta Feed</h2>
+        </div>
+        <div class="container">
+            <div class="insta_inner">
+                <div class="insta_item">
+                    <div class="insta_img">
+                        <img src="images/insta/insta_a.png" alt="">
+                        <div class="overlay">                            
+                            <div class="text">
+                                <img src="images/insta/insta_icon.png" alt="">
+                                <span>Shop the look</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="insta_item">
+                    <div class="insta_img">
+                        <img src="images/insta/insta_b.png" alt="">
+                        <div class="overlay">
+                            <div class="text">
+                                <img src="images/insta/insta_icon.png" alt="">
+                                <span>Shop the look</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="insta_item">
+                    <div class="insta_img">
+                        <img src="images/insta/insta_c.png" alt="">
+                        <div class="overlay">
+                            <div class="text">
+                                <img src="images/insta/insta_icon.png" alt="">
+                                <span>Shop the look</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="insta_item">
+                    <div class="insta_img">
+                        <img src="images/insta/insta_d.png" alt="">
+                        <div class="overlay">
+                            <div class="text">
+                                <img src="images/insta/insta_icon.png" alt="">
+                                <span>Shop the look</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+            <div class="view_prodects">
+                <div class="button insta_btn">Instagram Shop</div>
+            </div>
+        </div>
+    </section>
+
+<!--     <section class="insta_feed">
+        <div class="head_title">
+            <h2>Shop Our Insta Feed</h2>
+        </div>
+        <div class="container">
+            <div id="instagram" class="instafeed-section-inner">
+                <div class="insta_mn">
+                </div>
+            </div>
+            <div class="view_prodects">
+                <div class="button insta_btn">Instagram Shop</div>
+            </div>
+        </div>
+    </section> -->
+    
+    <section class="testimonial">
+        <div class="container">            
+            <div class="our_testi owl-carousel owl-theme">
+                <div class="testimo">                    
+                    <div class="test_con">
+                        <h2>What Our Customers Say</h2>
+                        <p><span class="ql"></span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                        aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                        mollit anim id est laborum.<span
+                                class="qr"></span></p>
+                        <img src="images/ball.png" alt="">
+                        <div class="name">Julia Hoffmann</div>
+                        <div class="review">
+                            <img src="images/review.png" alt="">
+                        </div>
+                    </div>                    
+                </div>
+                <div class="testimo">
+                    <div class="test_con">
+                        <h2>What Our Customers Say</h2>
+                        <p><span class="ql"></span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                        aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                        mollit anim id est laborum.<span class="qr"></span></p>
+                        <img src="images/ball.png" alt="">
+                        <div class="name">Julia Hoffmann</div>
+                        <div class="review">
+                            <img src="images/review.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="testimo">                    
+                    <div class="test_con">
+                        <h2>What Our Customers Say</h2>
+                        <p><span class="ql"></span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                        aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                        mollit anim id est laborum.<span
+                                class="qr"></span></p>
+                        <img src="images/ball.png" alt="">
+                        <div class="name">Julia Hoffmann</div>
+                        <div class="review">
+                            <img src="images/review.png" alt="">
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured">
+        <div class="head_title">
+            <h2>Featured In</h2>
+        </div>
+        <div class="container">
+            <div class="featured_inner">
+                <div class="featu_logo">
+                    <img src="images/logos/a.png" alt="">
+                </div>
+                <div class="featu_logo">
+                    <img src="images/logos/b.png" alt="">
+                </div>
+                <div class="featu_logo">
+                    <img src="images/logos/c.png" alt="">
+                </div>
+                <div class="featu_logo">
+                    <img src="images/logos/d.png" alt="">
+                </div>
+                <div class="featu_logo">
+                    <img src="images/logos/e.png" alt="">
+                </div>
+                <div class="featu_logo">
+                    <img src="images/logos/f.png" alt="">
+                </div>
+                <div class="featu_logo">
+                    <img src="images/logos/g.png" alt="">
+                </div>
+                <div class="featu_logo">
+                    <img src="images/logos/h.png" alt="">
+                </div>
+                <div class="featu_logo">
+                    <img src="images/logos/i.png" alt="">
+                </div>
+                <div class="featu_logo">
+                    <img src="images/logos/j.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="foot_inner">
+                <div class="foot_top">
+                    <div class="foot-links-box">
+                        <div class="foot-links">
+                            <div class="foot-col">
+                                <div class="foot-head">Customer Services</div>
+                                <div class="foot-link">
+                                    <ul>
+                                        <li><a href="#">Shipping & Returns</a></li>
+                                        <li><a href="#">Gift Guide</a></li>
+                                        <li><a href="#">Care Guide</a></li>
+                                        <li><a href="#">Size Guide</a></li>
+                                        <li><a href="#">FAQs</a></li>
+                                        <li><a href="#">Privacy Policy</a></li>
+                                        <li><a href="#">Contact Us</a></li>                                    
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="foot-links">
+                            <div class="foot-col">
+                                <div class="foot-head">Company</div>
+                                <div class="foot-link">
+                                    <ul>
+                                        <li><a href="#">Our Story</a></li>
+                                        <li><a href="#">We Gift Back</a></li>
+                                        <li><a href="#">Ethical Sourcing</a></li>
+                                        <li><a href="#">Careers</a></li>
+                                        <li><a href="#">Wholesale</a></li>
+                                        <li><a href="#">Factory</a></li>
+                                        <li><a href="#">Visit Us</a></li>                                    
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="newsletter-box">
+                        <h3>Get insider access into all that is fine, trending and sparkling!</h3>
+                        <form action="form" class="newsletter-form">
+                            <input type="email" name="Email" placeholder="Your Email...">
+                            <button class="news_but" type="submit" value="submit"><img src="images/paper-plane.png" alt=""></button>
+                        </form>
+                    </div>
+                    <div class="foot-logo-box">
+                        <div class="foot-logo">
+                            <img src="images/Footer-Logo.png" alt="">
+                        </div>
+                        <div class="pay-links">
+                            <img src="images/pay.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="foot_bot">
+                    <div class="foot_option">
+                        <span class="flag"></span>
+                        <span>UAE |</span>
+                        <div class="opt-currency">                            
+                            <select name="currency" class="opt-curn">
+                                <option value="AED">AED</option>
+                                <option value="USD">USD</option>
+                                <option value="INR">INR</option>
+                                <option value="EUR">Euro</option>
+                            </select>
+                        </div>
+                        <div class="opt-language">
+                            <select name="Language">
+                                <option value="EN" name="lng">EN</option>
+                                <option value="AR" name="lng">AR</option>
+                                <option value="DE" name="lng">DE</option>
+                                <option value="FR" name="lng">FR</option>
+                                <option value="IT" name="lng">IT</option>
+                                <option value="RU" name="lng">RU</option>
+                                <option value="ES" name="lng">ES</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="copy-right">
+                        <p>© Lorem ipsum Diamonds & Watches LLC 2020 All Rights Reserved. Design and Developed by <a href="https://github.com/parthgodhani-dev" target="_blank">Parth Godhani</a>.</p>
+                    </div>
+                    <div class="social-icon">
+                        <img src="images/social.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- footer links -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="js/general.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.instagramFeed/1.3.2/jquery.instagramFeed.min.js"></script>                
+    </footer>
+</body>
+</html> 

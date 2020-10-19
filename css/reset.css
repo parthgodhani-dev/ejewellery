@@ -1,0 +1,39 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* font-family: 'Jost', sans-serif; */
+
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary {margin: 0;	padding: 0;	border: 0; font-family: 'Jost', sans-serif; font-size: 100%;font-weight: normal;vertical-align: top;background: transparent;}
+article, aside, figure, footer, header, nav, section, details, summary {display: block;}
+html {box-sizing: border-box;}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+img{max-width: 100%;height: auto;}
+
+ul {list-style: none;}
+
+a{margin: 0; padding: 0; font-size: 100%; text-decoration: none; vertical-align: baseline; background: transparent;}
+a:focus, a:hover{font-size: 100%; text-decoration: none; vertical-align: baseline; background: transparent;}
+
+hr {display: block; height: 2px; border: 0; border-top: 2px solid #D9D9D8; margin: 0; padding: 0;}
+
+input, select {vertical-align: middle;} 
+
+.button,.button:focus,.button:active{position: relative;display: inline-block; font-family: 'Jost', sans-serif;font-weight: 400; font-size: 16px; 
+background: transparent; color: #504538; line-height: 1; border: 1px solid #333; letter-spacing: .5px;cursor: pointer;padding: 11px 20px;text-transform: capitalize;z-index: 2;}
+.button:hover,.button:focus{color: #fff;z-index: 2;}
+.button::before{background: #897a69;content: "";position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);z-index: -1;transition: all 0.6s ease;width: 0%;height: 100%;}
+.button:hover::before{width: 100%;}
+
+/* let's clear some floats */
+.cf:before, .cf:after {display: block;height: 0;overflow: hidden;}
+.cf:after {clear: both;}
+
+.container{width: 100%;max-width: 1280px;padding: 0 15px;margin: 0 auto;}
+
+body{background-color: #fff;font-family: 'Jost', sans-serif;}
